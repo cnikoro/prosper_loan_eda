@@ -4,11 +4,13 @@
 
 ## Dataset
 
-The dataset used for this investigation is the Prosper loan dataset retrieved from Udacity. It comprises 113937 observations and 81 variables which comprises both qualitative and quantitative variables.
+The dataset used for this investigation is the Prosper loan dataset retrieved from Udacity. It comprises 113,937 observations and 81 variables which comprises both qualitative and quantitative variables.
 
 I only considered loans that were either completed, defaulted, or charged-off. Apart from the main variable of interest, `LoanStatus`, others explored in this investigation are: `LoanOriginalAmount`, `LP_CustomerPrincipalPayments`,`BorrowerAPR`, `LP_InterestandFees`, `Term`, `LoanCurrentDaysDelinquent`, `EmploymentStatus`, `ListingCategory (numeric)`, and `TotalProsperLoans`.
 
-`EmploymentStatus` variable comprises of "Not employed", "Full-time", "Part-time", "Retired", "Employed", "Self-employed", "Other", and "Not available" categories. For this investigation, I only considered records whose employment status are known. Therefore, records with an "Other" or "Not available" status where not considered. Also, since it is safe to assume that borrowers with a "Full-time" and "Part-time" status have an employer, I merged them with those whose status is "Employed". Consequently, the categories of employment status considered are "Not employed", "Self-employed", "Employed", and "Retired".
+`EmploymentStatus` variable comprises of "Not employed", "Full-time", "Part-time", "Retired", "Employed", "Self-employed", "Other", and "Not available" categories. For this investigation, I only considered records whose employment status are known. Therefore, records with an "Other" or "Not available" status where not considered. Furthermore, since it is safe to assume that borrowers with a "Full-time" and "Part-time" status have an employer, I merged them with those whose status is "Employed". Consequently, the categories of employment status considered are "Not employed", "Self-employed", "Employed", and "Retired".
+
+After performing the above wrangling process, I was left with 46,688 records which was explored for this investigation.
 
 ## Summary of Findings
 

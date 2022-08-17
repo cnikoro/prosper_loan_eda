@@ -22,4 +22,6 @@ As expected, I observed an increase in the number of days of delinquency as I an
 
 ## Key Insights for Presentation
 
-> Select one or two main threads from your exploration to polish up for your presentation. Note any changes in design from your exploration step here.
+For the presentation, I focus on the influence of the principal outstanding, the number of days borrowers were delinquent, the loan term, and the employment status on the outcome of the loan. I start by introducing the `LoanStatus` variable followed by each of the distributions of `LoanPrincipalOutstanding` and `LoanCurrentDaysDelinquent`. This is followed by box plots of each of these variables and the `LoanStatus`.
+
+Afterwards, I introduce each of the categorical variables. To start I use the box plot of the loan status and principal outstanding across the loan term. Next, I use the box plot of the loan status and number of days borrowers were delinquent across the loan term. Finally, I use the box plot of the loan status and the number of days borrowers were delinquent across the employment status, and did the same with the box plot of the loan status and the principal outstanding.

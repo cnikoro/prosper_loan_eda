@@ -10,7 +10,7 @@ I only considered loans that were either completed, defaulted, or charged-off. A
 
 `EmploymentStatus` variable comprises of "Not employed", "Full-time", "Part-time", "Retired", "Employed", "Self-employed", "Other", and "Not available" categories. For this investigation, I only considered records whose employment status are known. Therefore, records with an "Other" or "Not available" status where not considered. Furthermore, since it is safe to assume that borrowers with a "Full-time" and "Part-time" status have an employer, I merged them with those whose status is "Employed". Consequently, the categories of employment status considered are "Not employed", "Self-employed", "Employed", and "Retired".
 
-After performing the above wrangling process, I was left with 46,688 records which was explored for this investigation.
+After performing the above wrangling process, I was left with 46,688 records which was explored for this investigation. A new variable was created called `LoanPrincipalOutstanding` that contains the principal outstanding of each record.
 
 ## Summary of Findings
 

@@ -4,7 +4,7 @@
 
 ## Dataset
 
-The dataset used for this investigation is the Prosper loan dataset retrieved from Udacity. It comprises 113,937 observations and 81 variables which comprises both qualitative and quantitative variables.
+The dataset used for this investigation is the Prosper loan dataset retrieved from [Udacity](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv&sa=D&ust=1581581520570000). It comprises 113,937 observations and 81 variables which comprises both qualitative and quantitative variables.
 
 I only considered loans that were either completed, defaulted, or charged-off. Apart from the main variable of interest, `LoanStatus`, others explored in this investigation are: `LoanOriginalAmount`, `LP_CustomerPrincipalPayments`,`BorrowerAPR`, `LP_InterestandFees`, `Term`, `LoanCurrentDaysDelinquent`, `EmploymentStatus`, `ListingCategory (numeric)`, and `TotalProsperLoans`.
 
